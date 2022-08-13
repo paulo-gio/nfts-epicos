@@ -8,10 +8,5 @@ module.exports = {
       url: process.env.QUICKNODE_API_KEY_URL,
       accounts: [process.env.PRIVATE_KEY],
     },
-    mainnet: {
-      chainId: 1,
-      url: process.env.PROD_ALCHEMY_KEY,
-      accounts: [process.env.PRIVATE_KEY],
-    },
   },
 };
